@@ -8,6 +8,7 @@
  * Author URI: https://top-models.webcam
  * Text Domain: tmw-affiliate-manager
  */
+
 if (!defined('ABSPATH')) { exit; }
 
 define('TMW_AM_VERSION', '1.0.2');
