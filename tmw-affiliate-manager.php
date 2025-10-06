@@ -22,7 +22,9 @@ spl_autoload_register(function ($class) {
     $len = strlen($prefix);
     if (strncmp($prefix, $class, $len) !== 0) { return; }
     $relative_class = substr($class, $len);
-    $file = $base_dir . 'class-' . strtolower(str_replace('\\', '-', $relative_class)) . '.php';
+    $relative_path = str_replace('\\', '-', $relative_class);
+    $relative_path = str_replace('_', '-', $relative_path);
+    $file = $base_dir . 'class-' . strtolower($relative_path) . '.php';
     if (is_readable($file)) { require $file; }
 });
 
