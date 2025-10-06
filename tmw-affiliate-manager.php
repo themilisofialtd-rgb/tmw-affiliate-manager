@@ -1,16 +1,16 @@
 <?php
 /**
  * Plugin Name: TMW Affiliate Manager
- * Description: Phase 1 foundation: admin pages, logger, daily cron, and banner zones (desktop/mobile).
- * Version: 1.0.1
+ * Plugin URI: https://github.com/themilisofialtd-rgb/tmw-affiliate-manager
+ * Description: Foundation build for the TMW Affiliate Manager — banner zones, cron scheduler, and logger system.
+ * Version: 1.0.2
  * Author: Adultwebmaster69
- * Requires at least: 6.0
- * Requires PHP: 7.4
+ * Author URI: https://top-models.webcam
+ * Text Domain: tmw-affiliate-manager
  */
-
 if (!defined('ABSPATH')) { exit; }
 
-define('TMW_AM_VERSION', '1.0.1');
+define('TMW_AM_VERSION', '1.0.2');
 define('TMW_AM_FILE', __FILE__);
 define('TMW_AM_DIR', plugin_dir_path(__FILE__));
 define('TMW_AM_URL', plugin_dir_url(__FILE__));
