@@ -1,0 +1,1 @@
+<div class='wrap'><h1>TMW Affiliate Manager — Dashboard</h1><p>Use Banner Zones to paste banners. Shortcode: [tmw_banner_zone id="desktop_global"].</p></div>

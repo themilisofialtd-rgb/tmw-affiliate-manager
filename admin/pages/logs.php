@@ -1,0 +1,1 @@
+<?php $path=TMW_AM_LOG_DIR.'tmw.log';$c=file_exists($path)?file_get_contents($path):'';?><div class='wrap'><h1>Logs</h1><textarea readonly rows='20' class='large-text code'><?php echo esc_textarea($c?:'No logs yet.');?></textarea></div>
